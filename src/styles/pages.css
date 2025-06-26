@@ -238,10 +238,10 @@
 }
 
 /* Adjustments for the new course details table  */
-.course-details-table {
-  /* For example: */
-  /* font-size: 0.9em; */
-}
+/* .course-details-table { */
+/* For example: */
+/* font-size: 0.9em; */
+
 
 /* CSS Animation Definitions */
 /* Keyframes for Fade In Up animation */
@@ -317,7 +317,7 @@
   /* white-space: nowrap; Prevent content from wrapping inside cells */
   /* -webkit-overflow-scrolling: touch; For smooth scrolling on iOS */
   /* } */
-   .admissions-table thead,
+  .admissions-table thead,
   .admissions-table tbody,
   .admissions-table th,
   .admissions-table td,
