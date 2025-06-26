@@ -4,7 +4,7 @@ import { getEmbeddings, cosineSimilarity } from "../../utils/aiservice";
 import { SIMILARITY_THRESHOLD } from "../../utils/constants"; // Path adjusted
 import "./chatboat.css";
 import useOnlineStatus from "../../hooks/useOnlineStatus";
-import KNOWLEDGE_BASE_DATA from "../../data/knowledgeBase.json";
+import KNOWLEDGE_BASE_DATA from "../../data/KnowledgeBase.json";
 const ChatbotComponent = () => {
     const [messages, setMessages] = useState([
         { text: KNOWLEDGE_BASE_DATA.greeting.response, sender: "bot" },
